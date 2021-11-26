@@ -20,8 +20,6 @@ With Elegant Animation.
 ![Screenshot 2021-11-26 115126](https://user-images.githubusercontent.com/75254562/143557579-816d07f4-6ac2-47b7-a4d9-622dcac03554.png)
 ![Screenshot 2021-11-26 115022](https://user-images.githubusercontent.com/75254562/143557582-f8a97dd7-cfc7-4d58-8705-adce3a894b6b.png)
 
-## Getting started
-
 
 ## Usage
 
@@ -40,6 +38,4 @@ to `/example` folder.
                 fillColor: MaterialStateProperty.all(Colors.red),
               );
 ```
-
-## Additional information
 
