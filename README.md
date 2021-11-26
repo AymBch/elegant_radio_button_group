@@ -10,13 +10,15 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
+A Flutter package for new radio button design.
+With Elegant Animation.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+![Screenshot 2021-11-26 115045](https://user-images.githubusercontent.com/75254562/143557574-cc399da1-09bb-4a4c-95ce-072380c07f7b.png)
+![Screenshot 2021-11-26 115126](https://user-images.githubusercontent.com/75254562/143557579-816d07f4-6ac2-47b7-a4d9-622dcac03554.png)
+![Screenshot 2021-11-26 115022](https://user-images.githubusercontent.com/75254562/143557582-f8a97dd7-cfc7-4d58-8705-adce3a894b6b.png)
 
 ## Getting started
 
@@ -29,11 +31,17 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
 
 ```dart
-const like = 'sample';
+              ElegantRadioButton<int>(
+                groupValue: 1,
+                value: 1,
+                onChanged: (value) {
+                  setState(() {
+                    selectedValue = value;
+                  });
+                },
+                fillColor: MaterialStateProperty.all(Colors.red),
+              );
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
